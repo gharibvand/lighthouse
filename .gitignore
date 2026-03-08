@@ -1,4 +1,4 @@
-# Binaries
+# Binaries for programs and plugins
 *.exe
 *.exe~
 *.dll
@@ -7,17 +7,21 @@
 lighthouse
 server
 
-# Test binary
+# Test binary, built with `go test -c`
 *.test
 
-# Output of the go coverage tool
+# Code coverage profiles and other test artifacts
 *.out
+coverage.*
+*.coverprofile
+profile.cov
 
 # Dependency directories
 vendor/
 
 # Go workspace file
 go.work
+go.work.sum
 
 # Environment variables
 .env
