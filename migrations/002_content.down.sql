@@ -1,0 +1,11 @@
+DROP TABLE IF EXISTS subtitles;
+DROP TABLE IF EXISTS content_directors;
+DROP TABLE IF EXISTS content_actors;
+DROP TABLE IF EXISTS content_genres;
+DROP TABLE IF EXISTS episodes;
+DROP TABLE IF EXISTS content;
+DROP TABLE IF EXISTS directors;
+DROP TABLE IF EXISTS actors;
+DROP TABLE IF EXISTS genres;
+
+DROP EXTENSION IF EXISTS pg_trgm;

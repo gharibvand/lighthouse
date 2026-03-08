@@ -1,0 +1,3 @@
+DROP TABLE IF EXISTS ratings;
+DROP TABLE IF EXISTS watchlist;
+DROP TABLE IF EXISTS watch_history;
