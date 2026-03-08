@@ -44,5 +44,6 @@ storage/content/
 # Logs
 *.log
 
-# Documentation
-README.md
+# Documentation (except README.md)
+*.md
+!README.md
