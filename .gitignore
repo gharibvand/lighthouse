@@ -43,3 +43,6 @@ storage/content/
 
 # Logs
 *.log
+
+# Documentation
+README.md
